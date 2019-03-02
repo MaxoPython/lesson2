@@ -1,0 +1,541 @@
+2019-03-02 07:21:56,146 - INFO - Бот запускается
+2019-03-02 07:22:19,692 - INFO - User: Odintsov, Chat id: 356472905, Message: как дела?
+2019-03-02 07:22:36,964 - INFO - User: Odintsov, Chat id: 356472905, Message: \start
+2019-03-02 07:22:41,889 - INFO - Вызван Start!
+2019-03-02 07:23:02,328 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 07:31:33,175 - INFO - Бот запускается
+2019-03-02 07:31:41,011 - INFO - User: Odintsov, Chat id: 356472905, Message: gjdsl
+2019-03-02 07:31:49,237 - INFO - User: Odintsov, Chat id: 356472905, Message: \start
+2019-03-02 07:32:05,027 - INFO - User: Odintsov, Chat id: 356472905, Message: \planet
+2019-03-02 07:35:39,211 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 07:35:39,212 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    user_planet = input()
+EOFError
+2019-03-02 07:35:39,226 - INFO - User: Odintsov, Chat id: 356472905, Message: Марс
+2019-03-02 07:48:55,737 - INFO - Бот запускается
+2019-03-02 07:48:58,331 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdhk
+2019-03-02 07:49:06,874 - INFO - Вызван Start!
+2019-03-02 07:52:23,483 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 07:52:31,456 - INFO - Бот запускается
+2019-03-02 07:52:36,417 - INFO - User: Odintsov, Chat id: 356472905, Message: привет
+2019-03-02 07:54:31,691 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 07:54:38,066 - INFO - Бот запускается
+2019-03-02 08:01:38,059 - INFO - User: Odintsov, Chat id: 356472905, Message: \planet Mars
+2019-03-02 08:01:46,030 - INFO - User: Odintsov, Chat id: 356472905, Message: \planet
+2019-03-02 08:06:54,319 - INFO - User: Odintsov, Chat id: 356472905, Message: how ar u
+2019-03-02 08:13:30,328 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:13:51,903 - INFO - Бот запускается
+2019-03-02 08:13:57,409 - INFO - User: Odintsov, Chat id: 356472905, Message: привет
+2019-03-02 08:14:12,445 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 26, in planets
+    update.message.reply_text(text1)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'MessageHandler' is not JSON serializable
+2019-03-02 08:14:18,483 - INFO - User: Odintsov, Chat id: 356472905, Message: Хай
+2019-03-02 08:14:39,590 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000012DF6146668>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/getUpdates
+2019-03-02 08:20:38,399 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:20:43,924 - INFO - Бот запускается
+2019-03-02 08:20:47,420 - INFO - User: Odintsov, Chat id: 356472905, Message: ghbd
+2019-03-02 08:20:56,017 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.MessageHandler(Filters.text,text1)
+NameError: name 'mybot' is not defined
+2019-03-02 08:21:05,200 - INFO - User: Odintsov, Chat id: 356472905, Message: hgfhl
+2019-03-02 08:21:12,849 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.MessageHandler(Filters.text,text1)
+NameError: name 'mybot' is not defined
+2019-03-02 08:21:39,745 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.MessageHandler(Filters.text,text1)
+NameError: name 'mybot' is not defined
+2019-03-02 08:22:07,564 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:22:10,276 - INFO - Бот запускается
+2019-03-02 08:22:23,541 - INFO - Вызван Start!
+2019-03-02 08:22:25,900 - INFO - User: Odintsov, Chat id: 356472905, Message: hgjklfdh
+2019-03-02 08:22:31,816 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.MessageHandler(Filters.text,text1)
+NameError: name 'mybot' is not defined
+2019-03-02 08:22:37,798 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.MessageHandler(Filters.text,text1)
+NameError: name 'mybot' is not defined
+2019-03-02 08:23:26,307 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:23:30,980 - INFO - Бот запускается
+2019-03-02 08:23:37,549 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher(MessageHandler(Filters.text,text1))
+NameError: name 'mybot' is not defined
+2019-03-02 08:23:41,724 - INFO - User: Odintsov, Chat id: 356472905, Message: FDG
+2019-03-02 08:23:49,069 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher(MessageHandler(Filters.text,text1))
+NameError: name 'mybot' is not defined
+2019-03-02 08:24:02,571 - INFO - User: Odintsov, Chat id: 356472905, Message: TR
+2019-03-02 08:24:43,351 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:24:48,138 - INFO - Бот запускается
+2019-03-02 08:24:50,931 - INFO - User: Odintsov, Chat id: 356472905, Message: HGFHK
+2019-03-02 08:24:55,602 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    mybot.dispatcher.add_handler(MessageHandler(Filters.text,text1))
+NameError: name 'mybot' is not defined
+2019-03-02 08:24:57,665 - INFO - User: Odintsov, Chat id: 356472905, Message: VFH
+2019-03-02 08:29:26,026 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:29:39,235 - INFO - Бот запускается
+2019-03-02 08:29:42,389 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdhk
+2019-03-02 08:30:29,173 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:32:34,050 - INFO - Бот запускается
+2019-03-02 08:35:07,795 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:41:49,819 - INFO - Бот запускается
+2019-03-02 08:41:52,029 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 27, in planets
+    update.message.reply_text(date)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+2019-03-02 08:41:52,039 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdjk
+2019-03-02 08:41:55,012 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 27, in planets
+    update.message.reply_text(date)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+2019-03-02 08:42:06,919 - INFO - User: Odintsov, Chat id: 356472905, Message: fds
+2019-03-02 08:43:40,663 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:43:48,378 - INFO - Бот запускается
+2019-03-02 08:43:52,445 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 26, in planets
+    update.message.reply_text(date)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+2019-03-02 08:44:50,445 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 08:44:57,309 - INFO - Бот запускается
+2019-03-02 09:06:41,255 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000254833A0668>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/getUpdates
+2019-03-02 09:06:46,257 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000254833A0CC0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/getUpdates
+2019-03-02 09:07:57,968 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:08:02,087 - INFO - Бот запускается
+2019-03-02 09:08:06,511 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:08:13,029 - INFO - User: Odintsov, Chat id: 356472905, Message: hjk
+2019-03-02 09:08:16,963 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:08:29,411 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:09:02,040 - INFO - Бот запускается
+2019-03-02 09:09:03,824 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:09:06,874 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:09:08,497 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:09:11,533 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdkj
+2019-03-02 09:09:38,889 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:09:42,303 - INFO - Бот запускается
+2019-03-02 09:09:53,091 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:10:01,767 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:10:08,062 - INFO - User: Odintsov, Chat id: 356472905, Message: dfs
+2019-03-02 09:10:31,281 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:10:38,502 - INFO - Бот запускается
+2019-03-02 09:10:42,566 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: planets() missing 1 required positional argument: 'datetime'
+2019-03-02 09:10:57,296 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001D39B121828>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/getUpdates
+2019-03-02 09:11:01,039 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:11:04,825 - INFO - Бот запускается
+2019-03-02 09:11:14,425 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:11:28,677 - INFO - Бот запускается
+2019-03-02 09:15:15,389 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:16:16,651 - INFO - Бот запускается
+2019-03-02 09:16:21,666 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000235C7074390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/deleteWebhook
+2019-03-02 09:28:33,285 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:28:43,162 - INFO - Бот запускается
+2019-03-02 09:28:47,087 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(datetime.datetime.now())
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+2019-03-02 09:28:54,004 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdk
+2019-03-02 09:28:56,810 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(datetime.datetime.now())
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+2019-03-02 09:29:01,282 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:29:56,017 - INFO - Бот запускается
+2019-03-02 09:29:59,686 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(date.strftime('%d.%m.%Y'))
+NameError: name 'date' is not defined
+2019-03-02 09:30:02,873 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(date.strftime('%d.%m.%Y'))
+NameError: name 'date' is not defined
+2019-03-02 09:30:12,041 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(date.strftime('%d.%m.%Y'))
+NameError: name 'date' is not defined
+2019-03-02 09:30:15,050 - INFO - User: Odintsov, Chat id: 356472905, Message: gfdlk
+2019-03-02 09:31:05,731 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:31:13,498 - INFO - Бот запускается
+2019-03-02 09:31:17,101 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(date.datetime())
+NameError: name 'date' is not defined
+2019-03-02 09:31:22,162 - INFO - User: Odintsov, Chat id: 356472905, Message: fds
+2019-03-02 09:31:27,267 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:32:54,244 - INFO - Бот запускается
+2019-03-02 09:32:57,520 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(ephem.Mars('2016/09/23'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Mars' is not JSON serializable
+2019-03-02 09:33:00,335 - INFO - User: Odintsov, Chat id: 356472905, Message: fds
+2019-03-02 09:33:02,635 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 25, in planets
+    update.message.reply_text(ephem.Mars('2016/09/23'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\utils\request.py", line 308, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Mars' is not JSON serializable
+2019-03-02 09:33:10,338 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:34:14,450 - INFO - Бот запускается
+2019-03-02 09:34:26,587 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 09:34:48,072 - INFO - Бот запускается
+2019-03-02 10:57:51,961 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001B616AE42B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8/getUpdates
+2019-03-02 11:02:07,077 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:02:14,804 - INFO - Бот запускается
+2019-03-02 11:04:34,354 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:04:49,298 - INFO - Бот запускается
+2019-03-02 11:07:34,534 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:07:40,355 - INFO - Бот запускается
+2019-03-02 11:08:07,315 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:14:48,138 - INFO - Бот запускается
+2019-03-02 11:16:46,243 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:16:50,848 - INFO - Бот запускается
+2019-03-02 11:17:06,467 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:17:07,706 - WARNING - Exiting immediately!
+2019-03-02 11:17:12,246 - INFO - Бот запускается
+2019-03-02 11:20:02,465 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:20:07,503 - INFO - Бот запускается
+2019-03-02 11:20:24,638 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 28, in planets
+    ephem.Mars('2016/09/23')
+NameError: name 'ephem' is not defined
+2019-03-02 11:20:29,653 - INFO - User: Odintsov, Chat id: 356472905, Message: gfl
+2019-03-02 11:22:41,454 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:22:45,216 - INFO - Бот запускается
+2019-03-02 11:22:57,616 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 30, in planets
+    ephem.Mars(current_time)
+NameError: name 'current_time' is not defined
+2019-03-02 11:24:53,031 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:24:59,228 - INFO - Бот запускается
+2019-03-02 11:25:10,567 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 30, in planets
+    mars=ephem.Mars(current_time)
+NameError: name 'current_time' is not defined
+2019-03-02 11:26:33,879 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:26:39,378 - INFO - Бот запускается
+2019-03-02 11:26:48,837 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 30, in planets
+    mars=ephem.Mars(current_time)
+NameError: name 'current_time' is not defined
+2019-03-02 11:29:39,379 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:29:45,715 - INFO - Бот запускается
+2019-03-02 11:29:53,362 - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\m_odi\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 27, in planets
+    c_time=datatime.datatime.now()
+NameError: name 'datatime' is not defined
+2019-03-02 11:29:58,367 - INFO - User: Odintsov, Chat id: 356472905, Message: hgjfdl
+2019-03-02 11:30:40,444 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:30:44,117 - INFO - Бот запускается
+2019-03-02 11:31:34,828 - INFO - Received signal 2 (SIGINT), stopping...
+2019-03-02 11:31:44,493 - INFO - Бот запускается
