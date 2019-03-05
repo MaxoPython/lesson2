@@ -1,5 +1,5 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters #добавление модуля и обработчиков телеграм
-
+import bot_settings
 import datetime
 import ephem
 import logging   
@@ -38,7 +38,7 @@ def planets(bot,update):
 
 def main():
 
-    mybot = Updater("785187042:AAGuh5KxPuU75flk04CfrZmFHubWuyqkUL8",request_kwargs=PROXY)
+    mybot = Updater(bot_settings.API_KEY,request_kwargs=PROXY)
     
     logging.info('Бот запускается')
 
